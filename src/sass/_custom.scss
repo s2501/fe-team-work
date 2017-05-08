@@ -2,3 +2,18 @@
 //
 // Copy variables from `_variables.scss` to this file to override default values
 // without modifying source files.
+
+.header-wrapper {
+background: url(../img/jumbotron-bg.jpg);
+padding-right: 0;
+ padding-left: 0;
+}
+
+.navbar-nav {
+	background: $transparent;
+}
+
+.navbar-collapse {
+	background: $transparent;
+	}
+
