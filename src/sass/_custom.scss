@@ -106,36 +106,4 @@ $btn-primary-border-color: #998675;
 
 
 
-//Team 2
-.teasere {
-	 position: relative;
-	 h2 {
-	  transition: 0.3s all ease;
-	 }
-	 &:after {
-	   position:absolute;
-	   content: '';
-	   width: 70px;
-	   height: 3px;
-	   background: #f1eee9;
-	   bottom: -30px;
-	   left: 0;
-	   right: 0;
-	   margin: auto;
-	   display: block; 
-	   transition: 0.3s all ease;
 
-	 }
-	 &:hover {
-	  h2 {
-	   color: $yellow;
-	  }
-	  &:after {
-	    background: #c7b299;
-	  }
-	 }
-	 img {
-	 
-	 }
- 
-}
