@@ -6,9 +6,11 @@
 
 // HEADER - MAX WORKS HERE
 .header-wrapper {
-background: url(../img/jumbotron-bg.jpg);
-padding-right: 0;
- padding-left: 0;
+	background: url(../img/jumbotron-bg.jpg);
+	background-size: cover;
+	padding-right: 0;
+ 	padding-left: 0;
+ 	height: 100vh;
 }
 
 .navbar-nav {
@@ -18,6 +20,29 @@ padding-right: 0;
 .navbar-collapse {
 	background: $transparent;
 	}
+
+.nav-burger {
+	width: 60px;
+	height: 60px;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.jumbotron {
+	text-align: center;
+}
+
+.display-2,
+.display-3,
+.lead {
+	color: #fff;
+}
+
+// CHANGING VARIABLES HERE
+
+$btn-primary-bg: #998675;
+$btn-primary-border-color: #998675;
 
 // END OF HEADER - CONTINUE AFTER THIS LINE
 
