@@ -1,5 +1,4 @@
 
-
 // Bootstrap overrides
 //
 // Copy variables from `_variables.scss` to this file to override default values
@@ -68,8 +67,7 @@ $btn-primary-border-color: #998675;
 
 // END OF HEADER - CONTINUE AFTER THIS LINE
 
-.header-section {
-
+.header {
 	display: block;
 	text-align: center;
 	width: 50%;
@@ -83,12 +81,12 @@ $btn-primary-border-color: #998675;
 	text-decoration: none;
 	}
 
-	.wrap-hover:hover{background: $gray-light; }
+	.wrap-hover:hover{background: $gray-light }
 
 .wrap-hover a {
 	text-decoration: none;
 	}
-
+}
 
 
 
@@ -96,11 +94,34 @@ $btn-primary-border-color: #998675;
 
 //Team 2
 .teasere {
+	position: relative;
 	h2 {
+		transition: 0.3s all ease;
+	}
+	&:after {
+			position:absolute;
+			content: '';
+			width: 70px;
+			height: 3px;
+			background: #f1eee9;
+			bottom: -30px;
+			left: 0;
+			right: 0;
+			margin: auto;
+			display: block; 
+			transition: 0.3s all ease;
 
-		&:hover ,
-		&:focus {
+	}
+	&:hover {
+		h2 {
 			color: $yellow;
 		}
+		&:after {
+				background: #c7b299;
+		}
 	}
+	img {
+ 
+	}
+	
 }
