@@ -1,9 +1,10 @@
-<<<<<<< HEAD
+
 // Bootstrap overrides
 //
 // Copy variables from `_variables.scss` to this file to override default values
 // without modifying source files.
 
+// HEADER - MAX WORKS HERE
 .header-wrapper {
 background: url(../img/jumbotron-bg.jpg);
 padding-right: 0;
@@ -18,7 +19,8 @@ padding-right: 0;
 	background: $transparent;
 	}
 
-=======
+// END OF HEADER - CONTINUE AFTER THIS LINE
+
 .header {
 	display: block;
 	text-align: center;
@@ -39,4 +41,4 @@ padding-right: 0;
 	text-decoration: none;
 	}
 }
->>>>>>> 88d4264b9dbf676e062edf4481880cdc10fadd0f
+
