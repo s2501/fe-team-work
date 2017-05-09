@@ -1,4 +1,5 @@
 
+
 // Bootstrap overrides
 //
 // Copy variables from `_variables.scss` to this file to override default values
@@ -66,8 +67,21 @@ $btn-primary-bg: #998675;
 $btn-primary-border-color: #998675;
 
 // END OF HEADER - CONTINUE AFTER THIS LINE
+// MAX AND VESO SECTION
 
-.header {
+.counter-wrapper {
+	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+	justify-content: center;
+}
+
+.icon-first {
+	font-size: 200%;
+}
+// END OF MAX AND VESO SECTION
+
+.header-section {
 	display: block;
 	text-align: center;
 	width: 50%;
@@ -81,12 +95,12 @@ $btn-primary-border-color: #998675;
 	text-decoration: none;
 	}
 
-	.wrap-hover:hover{background: $gray-light }
+	.wrap-hover:hover{background: $gray-light; }
 
 .wrap-hover a {
 	text-decoration: none;
 	}
-}
+
 
 
 
@@ -94,34 +108,34 @@ $btn-primary-border-color: #998675;
 
 //Team 2
 .teasere {
-	position: relative;
-	h2 {
-		transition: 0.3s all ease;
-	}
-	&:after {
-			position:absolute;
-			content: '';
-			width: 70px;
-			height: 3px;
-			background: #f1eee9;
-			bottom: -30px;
-			left: 0;
-			right: 0;
-			margin: auto;
-			display: block; 
-			transition: 0.3s all ease;
+	 position: relative;
+	 h2 {
+	  transition: 0.3s all ease;
+	 }
+	 &:after {
+	   position:absolute;
+	   content: '';
+	   width: 70px;
+	   height: 3px;
+	   background: #f1eee9;
+	   bottom: -30px;
+	   left: 0;
+	   right: 0;
+	   margin: auto;
+	   display: block; 
+	   transition: 0.3s all ease;
 
-	}
-	&:hover {
-		h2 {
-			color: $yellow;
-		}
-		&:after {
-			background: #c7b299;
-		}
-	}
-	img {
+	 }
+	 &:hover {
+	  h2 {
+	   color: $yellow;
+	  }
+	  &:after {
+	    background: #c7b299;
+	  }
+	 }
+	 img {
+	 
+	 }
  
-	}
-	
 }
