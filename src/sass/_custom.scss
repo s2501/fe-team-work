@@ -74,11 +74,22 @@ $btn-primary-border-color: #998675;
 	margin-left: 0;
 	margin-right: 0;
 	justify-content: center;
+	background: #c1c1c1;
 }
 
-.icon-first {
-	font-size: 200%;
+.icon-column {
+	text-align: center;
+	margin: 15px;
 }
+
+.fa.fa-facebook,
+.fa.fa-twitter,
+.fa.fa-instagram,
+.fa.fa-linkedin,
+.fa.fa-tumblr {
+	font-size: 500%;
+}
+
 // END OF MAX AND VESO SECTION
 
 .header-section {
@@ -92,18 +103,10 @@ $btn-primary-border-color: #998675;
 	display: flex;
 }
 .wrap a {
-	text-decoration: none;
-	}
+	text-decoration: none;}
 
 	.wrap-hover:hover{background: $gray-light; }
 
 .wrap-hover a {
 	text-decoration: none;
 	}
-
-
-
-
-
-
-
