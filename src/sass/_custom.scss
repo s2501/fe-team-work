@@ -5,16 +5,25 @@
 // without modifying source files.
 
 // HEADER - MAX WORKS HERE
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+.header-logo {
+	width: 30px;
+	height: 30px;
+}
+
 .header-wrapper {
 	background: url(../img/jumbotron-bg.jpg);
 	background-size: cover;
 	padding-right: 0;
  	padding-left: 0;
  	height: 100vh;
+ 	font-family: 'Raleway', sans-serif;
 }
 
 .navbar-nav {
 	background: $transparent;
+	color: #fff;
 }
 
 .navbar-collapse {
@@ -33,10 +42,22 @@
 	text-align: center;
 }
 
-.display-2,
+
+.lead {
+	padding-bottom: 25px;
+}
+$lead-font-size: 0.90rem;
+
+// BUTTON SIZE
+
+$font-size-lg: 1.0rem;
+$line-height-lg: 2.5rem;
+
 .display-3,
+.display-4,
 .lead {
 	color: #fff;
+	margin: 30px 0 30px 0;
 }
 
 // CHANGING VARIABLES HERE

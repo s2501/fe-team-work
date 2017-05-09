@@ -123,8 +123,8 @@
   height: 1.5em;
   vertical-align: middle;
   content: "";
-  background: no-repeat center center;
-  background-size: 100% 100%;
+  background: url(../img/nav.png) no-repeat center center;
+  background-size: 200% 200%;
 }
 
 // Generate series of `.navbar-expand-*` responsive classes for configuring
