@@ -91,14 +91,14 @@ function myFirstLoop(param) {
     }
 }
 
-myFirstLoop(newArray);
+// myFirstLoop(newArray);
 
 // var compareParamOne = 1;
 // var comparaParamTwo = '1';
 // var compareParamThree = 3;
 
-// никога не правете това
-// if-ове в global scope-а са лоша практика
+// // никога не правете това
+// // if-ове в global scope-а са лоша практика
 // if (compareParamOne == comparaParamTwo && compareParamOne == 1) {
 
 //     console.log('първи случай');
@@ -109,3 +109,7 @@ myFirstLoop(newArray);
 
 //     console.log('трети случай');
 // }
+
+
+
+
