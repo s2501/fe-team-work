@@ -1,8 +1,17 @@
 function marina(){
 	var paramOne;
-	for (var i = 0; i < 3 ; i++){
-		paramOne = dummyObject.workWithThis[2].reachMe[i] += paramOne;
-		console.log(paramOne);
-	}
+	for (var i = 0; i < dummyObject.workWithThis[2].reachMe.length ; i++){
+
+        if(paramOne) {
+
+		      paramOne += dummyObject.workWithThis[2].reachMe[i];
+        } else {
+
+            paramOne = dummyObject.workWithThis[2].reachMe[i];
+        }
+    }
+
+	console.log(paramOne);
 }
-console.log(marina());
+
+marina();

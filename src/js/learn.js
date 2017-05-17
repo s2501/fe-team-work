@@ -110,6 +110,9 @@ function myFirstLoop(param) {
 //     console.log('трети случай');
 // }
 
+// .querySelectorAll
 
+var letsSelectAllNavNodes = document.querySelectorAll('.nav-item');
 
-
+// разгледайте свойсвата на html node модулите
+console.log(letsSelectAllNavNodes);

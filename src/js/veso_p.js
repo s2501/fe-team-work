@@ -1,28 +1,11 @@
-var dummyObject = {
-    workWithThis: [
-        {
-            dontReachMe: '1'
-        },
-        {
-            dontReachMe: '2'
-        },
-        {
-            reachMe: [
-                2,
-                3,
-                4
-            ]
-        }
-    ]
-};
-
+// виж решението на Марина
 
 function sum(param){
-             
+
 
   var total =  0;
     for(var i=0;i<param.length;i++)
-      {                  
+      {
         if(isNaN(param[i])){
           continue;
              }
