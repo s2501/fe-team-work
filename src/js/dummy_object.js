@@ -15,3 +15,5 @@ var dummyObject = {
         }
     ]
 };
+
+console.log(dummyObject.workWithThis[3].reachMe)
