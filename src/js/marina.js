@@ -15,3 +15,11 @@ function marina(){
 }
 
 marina();
+
+function fnIfElse(param){
+	if(param > 5) {
+		console.log('po-golqmo ot 5');
+	}else{
+		console.log('po-malko ili ravno ot 5');
+	}
+}
