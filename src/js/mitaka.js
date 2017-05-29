@@ -1,13 +1,18 @@
 function name(int) {
-    var i = 0;
+
+    var i;
+    var name;
     for (var i=0; i < int.length; i++) {
-        
+
     }
-    if (i > 5)
-        name = "po golqmo ot pet"; 
-    {
-            else (i <= 5)
-                name = "po malko ot pet"
-        }
+    if (int > 5) {
+        name = "po golqmo ot pet";
     }
+    else {
+        name = "po malko ot pet";
+    }
+
+    console.log(name);
 }
+
+name(8);

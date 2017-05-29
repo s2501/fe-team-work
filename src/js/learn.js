@@ -112,7 +112,57 @@ function myFirstLoop(param) {
 
 // .querySelectorAll
 
+// разгледайте свойсвата на html node модулите
+// console.log(letsSelectAllNavNodes);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 var letsSelectAllNavNodes = document.querySelectorAll('.nav-item');
 
-// разгледайте свойсвата на html node модулите
-console.log(letsSelectAllNavNodes);
+var classListArr = [];
+
+for (var itt = 0; itt < letsSelectAllNavNodes.length; itt++){
+
+    var currentCustomData = letsSelectAllNavNodes[itt].dataset.addAnotherClass;
+
+    classListArr.push(currentCustomData);
+}
+
+for (var itt = 0; itt < letsSelectAllNavNodes.length; itt++){
+
+    letsSelectAllNavNodes[itt].addEventListener('click', function(event){
+        var currentElementText = event.target.dataset.addAnotherClass;
+
+        var toChangeClassElement = document.querySelector('.body');
+
+        if(!toChangeClassElement.classList.contains(currentElementText)) {
+
+            for (var anotherItt = 0; anotherItt < classListArr.length; anotherItt++) {
+                if(toChangeClassElement.classList.contains(classListArr[anotherItt])) {
+                    toChangeClassElement.classList.remove(classListArr[anotherItt]);
+                }
+            }
+
+            toChangeClassElement.classList.add(currentElementText);
+
+        }
+
+    });
+}
