@@ -1,10 +1,8 @@
-function sumDummyObject(myArray) {
+function biggerOrSmaller(n) {
 
-    var sum = 0;
-    for (i=0;  i < myArray.workWithThis[2].reachMe.length; i++) {
-        sum = sum + myArray.workWithThis[2].reachMe[i];
-    }
-    console.log(sum);
+    if (n == 5) {console.log("the number is equal to 5")}
+    else if (n > 5)  {console.log("the is number bigger than 5")}
+    	else {console.log("the is number smaller than 5")}
 }
 
-sumDummyObject(dummyObject);
+biggerOrSmaller(6);
