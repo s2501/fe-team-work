@@ -1,0 +1,15 @@
+.body {
+    &.features {
+
+        &:after {
+            content: 'features selected';
+            position: absolute;
+            background: rgba(0, 0, 0, 0.5);
+            top: 0;
+            color: #fff;
+            font-size: 50px;
+            text-align: center;
+            padding: 50px;
+        }
+    }
+}
